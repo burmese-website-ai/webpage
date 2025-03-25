@@ -9,7 +9,6 @@
 <body>
 
     <div class="dialog-box">
-        <h2 class="ghost-text">Aung Myo Kyaw</h2>
         <p class="bloody-text">Hello Myanmar</p>
         <input type="text" placeholder="Username" id="username">
         <input type="password" placeholder="Password" id="password">
@@ -18,28 +17,12 @@
         <p id="message"></p>
 
         <div class="login-links">
-            <a href="#">Login with Google</a>
-            <a href="#">Login with Facebook</a>
+            <a href="#"><img src="google-logo.png" alt="Login with Google"></a>
+            <a href="#"><img src="facebook-logo.png" alt="Login with Facebook"></a>
         </div>
     </div>
 
-    <script>
-        function login() {
-            var username = document.getElementById('username').value;
-            var password = document.getElementById('password').value;
-            if(username && password) {
-                document.getElementById('message').innerText = "Welcome, " + username + "!";
-            } else {
-                document.getElementById('message').innerText = "Please enter username and password.";
-            }
-        }
-
-        function logout() {
-            document.getElementById('username').value = "";
-            document.getElementById('password').value = "";
-            document.getElementById('message').innerText = "You have logged out.";
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
