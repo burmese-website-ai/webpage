@@ -1,8 +1,4 @@
 # www.amkwebsite.com
----
-
-# Login Page Example
-
 အောက်တွင် **HTML** နှင့် **CSS** ကို အသုံးပြုပြီး **Login Page** တစ်ခုကို ဖန်တီးထားသည်။
 
 ```markdown
