@@ -3,8 +3,7 @@
 ဒီ project သည် **HTML, CSS, JavaScript** အသုံးပြုထားသော Login Page တစ်ခုဖြစ်သည်။  
 GitHub Pages မှတဆင့် **Live Demo** ကြည့်နိုင်ပါတယ်။  
 
-👉 **[![View Index.html](https://img.shields.io/badge/View-Index.html-blue)](https://my-c-om.github.io/amkwebpage.io/main.html)
-**
+👉 [![View Index.html](https://img.shields.io/badge/View-Index.html-blue)](https://my-c-om.github.io/amkwebpage.io/main.html)
 
 ---
 
