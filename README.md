@@ -1,8 +1,7 @@
 # www.amkwebsite.com
 အောက်တွင် **HTML** နှင့် **CSS** ကို အသုံးပြုပြီး **Login Page** တစ်ခုကို ဖန်တီးထားသည်။
 
-```markdown
-<!DOCTYPE html>
+```
 <html lang="en">
 <head>
     <meta charset="UTF-8">
