@@ -1,103 +1,57 @@
-:root {
-    --primary-color: #4EA685;
-    --secondary-color: #57B894;
-    --black: #000000;
-    --white: #ffffff;
-    --gray: #efefef;
-    --gray-2: #757575;
-
-    --facebook-color: #4267B2;
-    --google-color: #DB4437;
-    --twitter-color: #1DA1F2;
-    --insta-color: #E1306C;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-
-* {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
 body {
-    height: 100vh;
-    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a3093, #a044ff);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray);
+    height: 100vh;
+    margin: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 400px;
-    background: var(--white);
+.login-container {
+    background: linear-gradient(to right, #2c3e50, #3498db);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    width: 300px;
 }
 
-/* Aung Myo Kyaw Heading */
 h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-bottom: 15px;
+    color: white;
 }
 
-.input-group {
-    display: flex;
-    align-items: center;
-    background: var(--gray);
-    margin: 10px 0;
+input {
+    width: 100%;
     padding: 10px;
+    margin: 10px 0;
+    border: none;
     border-radius: 5px;
 }
 
-.input-group i {
-    margin-right: 10px;
-    color: var(--black);
-}
-
-.input-group input {
-    border: none;
-    outline: none;
-    background: transparent;
-    width: 100%;
+.options {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
 }
 
 button {
     width: 100%;
     padding: 10px;
+    background-color: black;
+    color: white;
     border: none;
-    background: var(--primary-color);
-    color: var(--white);
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
-    transition: 0.3s;
+    cursor: pointer;
 }
 
 button:hover {
-    background: var(--secondary-color);
+    background-color: darkgray;
 }
 
 p {
-    margin-top: 10px;
+    color: white;
     font-size: 14px;
-    color: var(--gray-2);
-}
-
-p a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-p a:hover {
-    text-decoration: underline;
 }
