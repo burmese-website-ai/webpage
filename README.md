@@ -1,7 +1,4 @@
-# Login Page Example
-
-Below is an example of a **Login Page** written in **HTML** with **CSS**.
-
+# www.amkwebsite.com
 ```markdown
 <!DOCTYPE html>
 <html lang="en">
@@ -30,9 +27,3 @@ Below is an example of a **Login Page** written in **HTML** with **CSS**.
     <script src="bottom.js"></script>
 </body>
 </html>
-
- ---
- # 🔐 Login Page (GitHub Pages Deployment)
-
-ဒီ project သည် **HTML, CSS, JavaScript** အသုံးပြုထားသော Login Page တစ်ခုဖြစ်သည်။  
-GitHub Pages မှတဆင့် **Live Demo** ကြည့်နိုင်ပါတယ်။ 
