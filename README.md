@@ -1,16 +1,3 @@
 # www.amkwebpage.com
 ------
-# html
-"
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Page</title>
-</head>
-<body>
-  <h1>Welcome to My GitHub Page</h1>
-  <p>This is a simple GitHub Page!</p>
-</body>
-</html> "
+[![View Index.html](https://img.shields.io/badge/View-Index.html-blue)](https://my-c-om.github.io/amkwebpage.io/)
