@@ -2,7 +2,7 @@
 
 Below is an example of a **Login Page** written in **HTML** with **CSS**.
 
-```html
+```markdown
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,12 +67,3 @@ GitHub Pages မှတဆင့် **Live Demo** ကြည့်နိုင်�
 │── README.md    # Project documentation
 
 ---
-
-## 📂 Project Structure
-
-```sh
-/login-page
-│── index.html   # Main HTML file
-│── style.css    # Styling file
-│── script.js    # JavaScript file for login functionality
-│── README.md    # Project documentation
