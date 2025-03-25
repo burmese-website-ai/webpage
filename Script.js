@@ -1,10 +1,10 @@
-let container = document.getElementById('container');
-
-const toggle = () => {
-    container.classList.toggle('sign-in');
-    container.classList.toggle('sign-up');
-};
-
-setTimeout(() => {
-    container.classList.add('sign-in');
-}, 200);
+function login() {
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    
+    if (username === "" || password === "") {
+        alert("Please fill in both fields.");
+    } else {
+        alert("Login successful!");
+    }
+}
